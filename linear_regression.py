@@ -1,3 +1,5 @@
+from visuals import plot
+
 def linearRegression(xList,yList,origin=False):
     n=len(xList)
     sumXY=sum(xList[i]*yList[i] for i in range(n))
@@ -9,4 +11,7 @@ def linearRegression(xList,yList,origin=False):
     if origin:
         a0=0
         a1=sumXY/sumXX
+    def plotFunction(x):
+        return a0+a1*x
+    plot(xList,yList,plotFunction)
     return a0,a1

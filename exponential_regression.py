@@ -1,5 +1,6 @@
 from math import *
 from bisection import bisect
+from visuals import plot
 
 def exponentialRegression(xList,yList):
     n=len(xList)
@@ -15,6 +16,9 @@ def exponentialRegression(xList,yList):
         return sxyebx(b)-syebx(b)*sxe2bx(b)/se2bx(b)
     b=bisect(func,-0.5,-0.05,50,0.005)
     a=syebx(b)/se2bx(b)
+    def plotFunction(x):
+        return a*exp(b*x)
+    plot(xList,yList,plotFunction)
     return a,b
 
 
