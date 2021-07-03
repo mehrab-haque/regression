@@ -1,6 +1,6 @@
 def linearRegression(xList,yList,origin=False):
     n=len(xList)
-    sumXY=sum(xList[i]*yList[i] for i in range(len(xList)))
+    sumXY=sum(xList[i]*yList[i] for i in range(n))
     sumX=sum(xList)
     sumY=sum(yList)
     sumXX=sum(i*i for i in xList)
