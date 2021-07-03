@@ -8,7 +8,7 @@ All those methods use logics (such as bisection method or gaussian elimination) 
 Each method is associated to the **plot()** function mentioned in **visuals.py**. Inputs can be provided manually or through a text file (as mentioned in **input.py**).
 
 
-### 3rd Degree Polynomial Regression of 1000 Scattered Pointes:
+### 3rd Degree Polynomial Regression of 1000 Scattered Points:
 #### (Input taken from .txt file)
 ![alt text][logo0]
 
