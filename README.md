@@ -1,11 +1,11 @@
 # Regression
-In this repository, I've shown 3 types of regression, those are:
+In this repository, 3 types of regression have been shown, those are:
 - Linear Regression
 - Exponential Regression
 - Polynomial Regression
 
 All those methods use logics (such as bisection method or gaussian elimination) built from scratch which are coded in different files for modularity.
-Each method is associated to the **plot()** function mentioned in **visuals.py**
+Each method is associated to the **plot()** function mentioned in **visuals.py**. Inputs can be provided manually or through a text file (as mentioned in **input.py**).
 
 
 ### 3rd Degree Polynomial Regression of 1000 Scatter Pointes:
