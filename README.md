@@ -4,7 +4,7 @@ In this repository, I've shown 3 types of regression, those are:
 - Exponential Regression
 - Polynomial Regression
 
-All those methods use logics (such as bisection method or gaussian elimination) from scratch which are coded in different files for modularity.
+All those methods use logics (such as bisection method or gaussian elimination) built from scratch which are coded in different files for modularity.
 Each method is associated to the **plot()** function mentioned in **visuals.py**
 
 ### Linear Regression:
