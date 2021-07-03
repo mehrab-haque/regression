@@ -7,6 +7,13 @@ In this repository, I've shown 3 types of regression, those are:
 All those methods use logics (such as bisection method or gaussian elimination) built from scratch which are coded in different files for modularity.
 Each method is associated to the **plot()** function mentioned in **visuals.py**
 
+
+### 3rd Degree Polynomial Regression of 1000 Scatter Pointes:
+#### (Input taken from .txt file)
+![alt text][logo0]
+
+[logo0]: https://buet-edu-1.s3.amazonaws.com/auto_upload/0RMFi9mrPNe7mol2JwcZAf40F3n2/1625278124583.png
+
 ### Linear Regression:
 ![alt text][logo1]
 
